@@ -706,7 +706,7 @@ background-color: #31d0aa;
     border-color: #4D5AE5;
 }
 
-.form-input:focus + .modal-icon {
+.form-input:focus > .modal-icon {
     fill: #4D5AE5;
 }
 
