@@ -707,7 +707,7 @@ background-color: #31d0aa;
 }
 
 .form-input:focus + .modal-icon {
-    border-color: #4D5AE5;
+    fill: #4D5AE5;
 }
 
 .backdor-form-comment {
@@ -772,6 +772,7 @@ background-color: #31d0aa;
     font-weight: 500;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    border-radius: 4px;
     color: #ffffff;
     cursor: pointer;
     background-color: #4D5AE5;
