@@ -760,7 +760,7 @@ background-color: #31d0aa;
     fill: transparent;
 }
 
-.check-input:checked .check-label .check-span {
+.check-input:checked + .check-label .check-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
