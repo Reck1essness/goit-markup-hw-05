@@ -609,6 +609,14 @@ background-color: #31d0aa;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.backdor-button:hover .backdor-icon {
+    fill: #ffffff;
+}
+
+.backdor-button:focus .backdor-icon {
+    fill: #ffffff;
+}
+
 .backdor-div {
     position: fixed;
     top: 0;
@@ -623,7 +631,7 @@ background-color: #31d0aa;
     fill: #ffffff;
 }
 
-..backdor-button:focus {
+.backdor-button:focus {
     fill: #ffffff;
 }
 
@@ -673,6 +681,7 @@ background-color: #31d0aa;
 .backdor-form-div {
     position: relative;
 }
+
 .form-input {
     width: 100%;
     height: 40px;
@@ -684,7 +693,7 @@ background-color: #31d0aa;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.form-input:focus.modal-icon {
+.form-input:focus .modal-icon {
     border-color: #4D5AE5;
 }
 
@@ -751,7 +760,7 @@ background-color: #31d0aa;
     fill: transparent;
 }
 
-.check-input:checked.check-span {
+.check-input:checked .check-label .check-span {
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
@@ -764,7 +773,7 @@ background-color: #31d0aa;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
-    line-height: 1.15;
+    line-height: 1.5;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
@@ -772,4 +781,8 @@ background-color: #31d0aa;
     border: none;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     margin: auto;
+}
+
+.modal-link {
+    color: #4d5ae5;
 }
